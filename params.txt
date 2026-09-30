@@ -1,0 +1,8 @@
+# ted-demo shared parameters (read by gen_stim.py and verify_tau.py)
+# OSR is fixed at 2 and tau is fixed Q4.16 (samples) in the RTL.
+N_SYM=2000
+KP_SHIFT=8
+KI_SHIFT=16
+TAU0_UI=0.55
+# Known channel offset in UI. Leave empty to skip the ground-truth check.
+TAU_TRUE_UI=0.30
